@@ -1,2 +1,4 @@
 # sportsweb
-On my project.
+* On my project.
+* Created the navbar.
+
