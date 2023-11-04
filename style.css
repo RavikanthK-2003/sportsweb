@@ -11,7 +11,6 @@
     background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(img/background-image.png);
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
 }
 
 /* navbar */
@@ -22,6 +21,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0;
+    padding: 10px 8%;
 }
 
 .logo {
@@ -73,6 +73,8 @@ nav ul li a {
     flex-wrap: wrap;
     gap: 25px;
     margin-top: 100px;
+    margin-bottom: 100px;
+
 }
 
 .card {
@@ -116,4 +118,101 @@ nav ul li a {
     text-decoration: none;
     border-radius: 5px;
     padding: 8px 16px;
+}
+
+/* footer */
+
+footer {
+    background-color: black;
+    position: sticky;
+    top: 100%;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 0px 10px;
+    border-radius: 50%;
+}
+
+.social-icons a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.social-icons a i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover {
+    opacity: 1;
+}
+
+.footer-bottom {
+    background-color: black;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    color: white;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+/* footer media queries */
+
+@media (max-width: 700px) {
+    .footer-nav ul {
+        flex-direction: column;
+    }
+
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }
