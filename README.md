@@ -1,4 +1,6 @@
 # sportsweb
 * On my project.
-* Created the navbar.
+* Created the Navbar.
+* Created the Cards.
+* Created the footer.
 

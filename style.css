@@ -8,7 +8,7 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(img/background-image.png);
+    background-image: linear-gradient(rgba(9,0,77,0.65),rgba(9,0,77,0.65)),url(img/backgroundimg.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -20,8 +20,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
     padding: 10px 8%;
+    background-color:rgb(15, 15, 59);
 }
 
 .logo {
@@ -53,16 +53,11 @@ nav ul li a {
     border: 0;
     outline: 0;
     border-radius: 5px;
-    background-color: rgb(22, 133, 212);
+    background-color: #3498db;
     color: white;
     font-weight: 500;
     cursor: pointer;
     margin-right: 20px;
-}
-
-.btn img {
-    width: 20px;
-    margin-right: 10px;
 }
 
 /* cards */
@@ -92,7 +87,7 @@ nav ul li a {
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -123,9 +118,10 @@ nav ul li a {
 /* footer */
 
 footer {
-    background-color: black;
+    background-color: rgb(11, 11, 72);
     position: sticky;
     top: 100%;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .footer-container {
@@ -140,9 +136,9 @@ footer {
 
 .social-icons a {
     text-decoration: none;
-    padding: 10px;
+    padding: 5px;
     background-color: white;
-    margin: 0px 10px;
+    margin: 10px 10px;
     border-radius: 50%;
 }
 
@@ -152,7 +148,6 @@ footer {
 }
 
 .social-icons a i {
-    font-size: 2em;
     color: black;
     opacity: 0.9;
 }
@@ -163,7 +158,7 @@ footer {
 }
 
 .footer-nav {
-    margin: 30px 0;
+    margin: 5px 0;
 }
 
 .footer-nav ul{
@@ -174,20 +169,22 @@ footer {
 
 .footer-nav ul li a {
     color: white;
-    margin: 20px;
+    margin: 10px;
     text-decoration: none;
-    font-size: 1.3em;
+    font-size: 15px;
     opacity: 0.7;
     transition: 0.5s;
 }
 
 .footer-nav ul li a:hover {
     opacity: 1;
+    text-decoration: underline;
 }
 
 .footer-bottom {
-    background-color: black;
-    padding-bottom: 10px;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 0px;
     text-align: center;
 }
 
