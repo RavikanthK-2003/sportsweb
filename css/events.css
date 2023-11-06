@@ -9,7 +9,7 @@
     width: 100%;
     min-height: 100vh;
     background-color: #fff;
-    background-image: linear-gradient(rgba(47, 42, 42,0.7),rgba(9,0,77,0.7)),url(img/backgroundimg.jpg);
+    background-image: linear-gradient(rgba(47, 42, 42,0.7),rgba(9,0,77,0.7)),url(../img/backgroundimg.jpg);
     background-size: cover;
     background-position: center;
 }
