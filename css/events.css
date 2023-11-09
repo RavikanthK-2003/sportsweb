@@ -13,24 +13,6 @@
     background-position: center;
 }
 
-/* body */
-
-.center {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-  }
-
-.icon {
-    padding-top: 10%;
-}
-
-.content {
-    padding: 10px;
-    font-size: 35px;
-    color: #080808;
-}
 
 /* navbar */
 
@@ -88,6 +70,26 @@ nav ul li a:hover {
 
 .btn:hover {
     background-color: #0367aa;
+}
+
+
+/* body */
+
+.center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+.icon {
+    padding-top: 10%;
+}
+
+.content {
+    padding: 10px;
+    font-size: 35px;
+    color: #080808;
 }
 
 
