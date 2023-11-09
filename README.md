@@ -1,6 +1,8 @@
 # sportsweb
 * On my project.
-* Created the Navbar.
-* Created the Cards.
-* Created the footer.
-
+* Created Home page.
+* Created Events page.
+* Created About page.
+* Created Contactus page.
+* Created Stadiumslist page.
+  
