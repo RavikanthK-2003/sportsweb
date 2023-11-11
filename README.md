@@ -5,4 +5,5 @@
 * Created About page.
 * Created Contactus page.
 * Created Stadiumslist page.
-  
+* Created Stadiumsdetail page.
+
