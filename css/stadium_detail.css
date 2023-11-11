@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+.contain {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #caeaff;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* body */
+
+/* cards */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.card {
+    width: 90%;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    padding: 20px;
+}
+
+
+.card img {
+    display: block;
+    margin: 20px 25%;
+    width: 50%;
+    text-align: center;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.card-content p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.property-gender i {
+    font-size: 25px;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    margin: 20px 60px;
+    border-radius: 5px;
+}
+
+.card-content .info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.custom th {
+    background-color: rgb(58, 63, 67);
+    color: whitesmoke;
+    border-color: rgb(119, 106, 106);
+    font-weight: 100;
+}
+
+.custom td {
+    background-color: #CFF4FC;
+    color: black;
+    border-color: rgb(209, 204, 204);
+}
