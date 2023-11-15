@@ -5,13 +5,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="img/logo1.jpg"/>
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet" /> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/common.css"/>
     <link rel="stylesheet" href="css/home.css"/>
     <title>Sports Web</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container1">
 
         <nav>
             <a href="home.html">
@@ -23,8 +25,122 @@
                 <li><a href="about.html">About</a></li>
                 <li><a href="contactus.html">Contact Us</a></li>
             </ul>
-            <button class="btn">Signin</button>
-            <button class="btn">Signup</button>
+            <button type="button" class="btn btn-primary shadow-none btn-sm custom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Signin
+            </button>
+  
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Signin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="login-form" class="form" role="form" method="post" action="api/login_submit.php">
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input type="email" class="form-control" name="email" placeholder="Email" required />
+                            </div>
+
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </div>
+                                <input type="password" class="form-control" name="password" placeholder="Password" minlength="6" required />
+                            </div>
+
+                            <div class="form-group my-4">
+                                <button type="submit" class="btn btn-block btn-sm btn-primary">Login</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="modal-footer">
+                        <span>
+                            <a href="#" data-dismiss="modal" data-toggle="modal" data-target="#signup-modal">Click here</a>
+                            to register a new account
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
+
+
+            <button type="button" class="btn btn-primary shadow-none btn-sm custom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                Signup
+            </button>
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Signup</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="signup-form" class="form" role="form" method="post" action="api/signup_submit.php">
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="full_name" placeholder="Full Name" maxlength="30" required />
+                            </div>
+        
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control" name="phone" placeholder="Phone Number" maxlength="10" minlength="10" required />
+                            </div>
+        
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                </div>
+                                <input type="email" class="form-control" name="email" placeholder="Email" required />
+                            </div>
+        
+                            <div class="input-group form-group my-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </div>
+                                <input type="password" class="form-control" name="password" placeholder="Password" minlength="6" required />
+                            </div>
+        
+                            <div class="form-group my-4">
+                                I'm a
+                                <input type="radio" class="ml-3" id="gender-male" name="gender" value="male" />Male
+                                <input type="radio" class="ml-3" id="gender-female" name="gender" value="female" />Female
+                            </div>
+        
+                            <div class="form-group my-4">
+                                <button type="submit" class="btn btn-block btn-sm btn-primary">Create Account</button>
+                            </div>
+                        </form>
+                    </div>
+        
+                    <div class="modal-footer">
+                        <span>Already have an account?
+                            <a href="#" data-dismiss="modal" data-toggle="modal" data-target="exampleModal">Login</a>
+                        </span>
+                    </div>
+                </div>
+                </div>
+            </div>
         </nav>
 
         <!-- Body of the page -->
@@ -105,6 +221,7 @@
         </footer>
 
     </div>        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>
