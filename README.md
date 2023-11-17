@@ -1,0 +1,3 @@
+# sportsweb
+
+*The Sports Web is a dynamic and interactive web application. This web application aims to cater to sports enthusiasts and fans by providing a comprehensive and engaging platform for accessing sports information, news, and interactive features to find the stadium's History. With an intuitive and user-friendly interface, users can stay updated on their favourite stadiums and news By combining the real-time stadiums data, the Sports Web become destination for sports fans, providing a feature-rich, engaging, and personalized platform for different sports enthusiasts to connect, stay informed, and celebrate their passion for sports.
