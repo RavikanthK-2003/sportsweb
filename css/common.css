@@ -2,19 +2,34 @@
 
 nav {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 8%;
-    background-color:rgb(15, 15, 59);
+    background-color:rgb(11, 11, 72);
     border-radius: 0px 0px 6px 6px;
 }
 
 .logo {
+    margin-left: 30px;
     width: 50px;
     height: 50px;
     cursor: pointer;
     border-radius: 30px;
+}
+
+.nav-item {
+    list-style: none;
+    float: right;
+}
+
+.nav-item a {
+    color: whitesmoke;
+}
+
+.nav-item a:hover {
+    color: white;
+    font-size: 18px;
+}
+
+.nav-name {
+    color: white;
 }
 
 nav ul {
@@ -30,31 +45,26 @@ nav ul li{
 }
 
 nav ul li a {
-    color: white;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 nav ul li a:hover {
+    color: whitesmoke;
+    opacity: 1;
     text-decoration: underline;
     font-size: 18px;
 }
 
-.btn {
-    display: flex;
-    align-items: center;
-    padding: 10px 20px;
-    border: 0;
-    outline: 0;
-    border-radius: 5px;
-    background-color: #3498db;
-    color: white;
-    font-weight: 500;
-    cursor: pointer;
-    margin-right: 20px;
+.navbar-toggler {
+    color: whitesmoke;
+    border: none;
+    background-color: white;
 }
 
-.btn:hover {
-    background-color: #0367aa;
+.navbar-toggler:focus {
+    text-decoration: none;
+    border: transparent;
 }
 
 
