@@ -40,7 +40,7 @@ session_start();
                     
                     <div class="contact-info-content">
                       <h4>Address</h4>
-                      <p>Flat-245 Near St.Patrics Academy,<br/> Rajahmundry, Andhra Pradesh <br/>550600</p>
+                      <p>Near Sai Baba Temple,<br/> Charaka Road, Ravulapalem, Andhra Pradesh <br/>533238</p>
                     </div>
                   </div>
                   
