@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-.container {
+.container1 {
     width: 100%;
     min-height: 100vh;
     background-color: #caeaff;
@@ -62,8 +62,8 @@
     text-align: justify;
 }
 
+
 .readmore {
-    margin-top: 20px;
     display: inline-block;
     padding: 10px 20px;
     color: white;
@@ -74,7 +74,8 @@
 }
 
 .readmore:hover {
-    background-color: #1870ab;
+    background-color: #398bc1;
+    color: white;
 }
 
 @media screen and (max-width: 768px) {

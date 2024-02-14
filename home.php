@@ -2,6 +2,7 @@
 session_start();
 ?>
 
+<<<<<<< HEAD
 
 
 <!DOCTYPE html>
@@ -15,12 +16,22 @@ session_start();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <link rel="stylesheet" href="css/common.css"/>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <?php
+        include "includes/head_links.php";
+    ?>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
     <link rel="stylesheet" href="css/home.css"/>
     <title>Sports Web</title>
 </head>
 <body>
     <div class="container1">
 
+<<<<<<< HEAD
         <nav>
             <a href="home.html">
                 <img src="img/logo.jpg" class="logo"/>
@@ -148,6 +159,11 @@ session_start();
                 </div>
             </div>
         </nav>
+=======
+        <?php
+        include "includes/header.php";
+        ?>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
 
         <!-- Body of the page -->
     
@@ -157,7 +173,11 @@ session_start();
                 <div class="card-content">
                     <h1>Cricket</h1>
                     <p>Cricket is a popular bat-and-ball sport played between two teams, aiming to score more runs than the opposition. Known for its rich history and global appeal, it has produced legendary players and remains a source of national pride for many countries.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
             <div class="card">
@@ -165,7 +185,11 @@ session_start();
                 <div class="card-content">
                     <h1>Football</h1>
                     <p>Football, or soccer, is a globally beloved sport where two teams aim to score goals by putting the ball into the opposing team's net. Its rich history and iconic players make it a source of immense national pride for many countries.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list2.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
             <div class="card">
@@ -173,7 +197,11 @@ session_start();
                 <div class="card-content">
                     <h1>Kabaddi</h1>
                     <p>Kabaddi, a traditional South Asian team sport, involves raiding the opposing team's half to tag players while chanting "kabaddi." Its cultural significance and increasing global recognition make it a source of pride for many communities.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list3.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
             <div class="card">
@@ -181,7 +209,11 @@ session_start();
                 <div class="card-content">
                     <h1>Volleyball</h1>
                     <p>Volleyball is a dynamic team sport where players aim to ground the ball on the opponent's side over a net, fostering teamwork and camaraderie. With its fast-paced action and widespread appeal, it remains a popular recreational and competitive sport globally.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list4.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
             <div class="card">
@@ -189,7 +221,11 @@ session_start();
                 <div class="card-content">
                     <h1>Badminton</h1>
                     <p>Badminton is a racket sport played either in singles or doubles, where players use rackets to hit a shuttlecock back and forth over a net. Known for its quick-paced rallies and agility, it is enjoyed as a recreational activity and a competitive sport worldwide.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list5.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
             <div class="card">
@@ -197,11 +233,16 @@ session_start();
                 <div class="card-content">
                     <h1>Hockey</h1>
                     <p>Hockey is a dynamic team sport where players use sticks to score goals, captivating audiences with its fast-paced and intense gameplay. With its global popularity and competitive spirit, it continues to be a source of national pride for many countries.</p>
+<<<<<<< HEAD
                     <a href="stadium_list.html" class="card-button">Read more</a>
+=======
+                    <a href="stadium_list6.php" class="card-button">Read more</a>
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
                 </div>
             </div>
         </div>
 
+<<<<<<< HEAD
         <!-- footer of the page -->
 
         <footer>
@@ -228,6 +269,15 @@ session_start();
 
     </div>        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+=======
+        <?php
+        include "includes/signup_modal.php";
+        include "includes/login_modal.php";
+        include "includes/footer.php";
+        ?>
+
+    </div>        
+>>>>>>> 69c65c067830e3c5ba3a308275c93db8174edfcc
     
 </body>
 </html>
